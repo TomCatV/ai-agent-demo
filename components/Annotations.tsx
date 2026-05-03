@@ -22,7 +22,8 @@ const Annotations = ({ annotations }: { annotations: Annotation[] }) => {
       return acc;
     },
     []
-  );
+  );  
+  console.log(uniqueAnnotations);
 
   return (
     <div className="flex justify-end max-w-full overflow-x-scroll gap-2 ml-28 mr-4 mt-2 mb-2">

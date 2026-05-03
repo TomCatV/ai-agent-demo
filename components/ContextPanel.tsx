@@ -24,3 +24,15 @@ export default function ContextPanel({ className = "" }: ContextPanelProps) {
     </div>
   );
 }
+
+export default function ContextPanel({ className = "" }: ContextPanelProps) {
+  const titleClassName = "text-black text-md font-medium mb-2";
+  return (
+    <div className={`p-4 pb-0 w-full bg-[#F7F7F8] rounded-lg ${className}`}>
+      <div className="flex flex-1 flex-col overflow-y-scroll h-full p-4 pb-0">
+        <h2 className={titleClassName}>Customer details</h2>
+        <CustomerDetails />
+      </div>
+    </div>
+  );
+}

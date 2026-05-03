@@ -3,6 +3,14 @@
 @tailwind utilities;
 
 @layer base {
+  @theme {
+    --font-sans: "Inter", sans-serif;
+    --font-serif: "Merriweather", serif;
+    --font-mono: "JetBrains Mono", monospace;
+    --font-display: "Inter", sans-serif;
+    --font-body: "Inter", sans-serif;
+    --font-heading: "Inter", sans-serif;
+  }
   :root {
     --background: 0 0% 100%;
 
